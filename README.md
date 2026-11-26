@@ -82,31 +82,31 @@ In the most-played pairing, MI lead CSK narrowly (21–20 in 41). MI dominate KK
 
 **Chasing-team win % by season**
 
-![Chasing-team win % by season](outputs/charts/02_chase_win_pct_trend.png)
+![Chasing-team win % by season](02_chase_win_pct_trend.png)
 
 **Toss decisions vs toss-winner win %**
 
-![Toss decisions vs toss-winner win %](outputs/charts/03_toss_trend.png)
+![Toss decisions vs toss-winner win %](03_toss_trend.png)
 
 **Chase-friendly vs balanced stadiums**
 
-![Chase-friendly vs balanced stadiums](outputs/charts/04_venue_profile.png)
+![Chase-friendly vs balanced stadiums](04_venue_profile.png)
 
 **IPL titles by franchise**
 
-![IPL titles by franchise](outputs/charts/05_titles.png)
+![IPL titles by franchise](05_titles.png)
 
 **Most Player-of-the-Match awards**
 
-![Most Player-of-the-Match awards](outputs/charts/06_player_of_match.png)
+![Most Player-of-the-Match awards](06_player_of_match.png)
 
 **Win % in close matches**
 
-![Win % in close matches](outputs/charts/07_close_matches.png)
+![Win % in close matches](07_close_matches.png)
 
 **Cumulative wins of top 5 franchises**
 
-![Cumulative wins of top 5 franchises](outputs/charts/08_cumulative_wins.png)
+![Cumulative wins of top 5 franchises](08_cumulative_wins.png)
 
 ## Limitations
 - Dataset is **match-level** (no ball-by-ball), so batting/bowling-level metrics are out of scope.
