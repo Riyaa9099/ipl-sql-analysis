@@ -78,7 +78,7 @@ In the most-played pairing, MI lead CSK narrowly (21–20 in 41). MI dominate KK
 
 **All-time win % by franchise**
 
-![All-time win % by franchise](outputs/charts/01_alltime_win_pct.png)
+![All-time win % by franchise](01_alltime_win_pct.png)
 
 **Chasing-team win % by season**
 
