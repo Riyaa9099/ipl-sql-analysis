@@ -79,31 +79,31 @@ These match the [live dashboard](https://riyaa9099.github.io/ipl-sql-analysis/) 
 
 **Chasing teams win more than half the time**
 
-![Chasing teams win more than half the time](outputs/charts/02_chase_win_pct_trend.png)
+![Chasing teams win more than half the time](02_chase_win_pct_trend.png)
 
 **Captains now choose to field**
 
-![Captains now choose to field](outputs/charts/03_toss_trend.png)
+![Captains now choose to field](03_toss_trend.png)
 
 **All-time win % by franchise**
 
-![All-time win % by franchise](outputs/charts/01_alltime_win_pct.png)
+![All-time win % by franchise](01_alltime_win_pct.png)
 
 **Stadium profile: chasing-team win %**
 
-![Stadium profile: chasing-team win %](outputs/charts/04_venue_profile.png)
+![Stadium profile: chasing-team win %](04_venue_profile.png)
 
 **Home vs away win %**
 
-![Home vs away win %](outputs/charts/05_home_vs_away.png)
+![Home vs away win %](05_home_vs_away.png)
 
 **Win % in close matches**
 
-![Win % in close matches](outputs/charts/07_close_matches.png)
+![Win % in close matches](07_close_matches.png)
 
 **Most Player-of-the-Match awards**
 
-![Most Player-of-the-Match awards](outputs/charts/06_player_of_match.png)
+![Most Player-of-the-Match awards](06_player_of_match.png)
 
 ## Limitations
 - Dataset is **match-level** (no ball-by-ball), so batting/bowling-level metrics are out of scope.
