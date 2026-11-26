@@ -1,5 +1,7 @@
 # IPL Match Analytics with SQL (2008–2026)
 
+**Live Dashboard:** [https://riyaa9099.github.io/ipl-sql-analysis/](https://riyaa9099.github.io/ipl-sql-analysis/)
+
 End-to-end data analysis of **1,243 IPL matches across 19 seasons** using **SQL (SQLite)** for cleaning, modelling and analysis, and **Python (pandas, matplotlib)** for orchestration and visualisation.
 
 **Business questions answered**
@@ -10,7 +12,9 @@ End-to-end data analysis of **1,243 IPL matches across 19 seasons** using **SQL 
 5. Who wins the most Player-of-the-Match awards?
 
 ## Interactive dashboard
-Open `dashboard/index.html` in a browser, or host it free with GitHub Pages (Settings → Pages → Deploy from branch → `main` / `/dashboard`... or move `index.html` to the repo root). It includes a franchise explorer, stadium profiles, home vs away and toss trends, all generated from the SQL outputs via `python dashboard/build_dashboard.py`.
+Explore the results live: **[https://riyaa9099.github.io/ipl-sql-analysis/](https://riyaa9099.github.io/ipl-sql-analysis/)**
+
+It includes a franchise explorer, stadium profiles, home vs away win %, toss trends and close-match performance, all generated from the SQL outputs via `python dashboard/build_dashboard.py`.
 
 ## Tech stack
 SQL (SQLite) · Python 3 · pandas · matplotlib · Chart.js
@@ -71,12 +75,38 @@ Deccan Chargers 2009 (**+42.0 pts**, went on to win the title), CSK 2023 (+38.1)
 In the most-played pairing, MI lead CSK narrowly (21–20 in 41). MI dominate KKR (25–12 in 37).
 
 ## Charts
-| | |
-|---|---|
-| ![](outputs/charts/01_alltime_win_pct.png) | ![](outputs/charts/02_chase_win_pct_trend.png) |
-| ![](outputs/charts/03_toss_trend.png) | ![](outputs/charts/04_venue_profile.png) |
-| ![](outputs/charts/05_titles.png) | ![](outputs/charts/06_player_of_match.png) |
-| ![](outputs/charts/07_close_matches.png) | ![](outputs/charts/08_cumulative_wins.png) |
+
+**All-time win % by franchise**
+
+![All-time win % by franchise](outputs/charts/01_alltime_win_pct.png)
+
+**Chasing-team win % by season**
+
+![Chasing-team win % by season](outputs/charts/02_chase_win_pct_trend.png)
+
+**Toss decisions vs toss-winner win %**
+
+![Toss decisions vs toss-winner win %](outputs/charts/03_toss_trend.png)
+
+**Chase-friendly vs balanced stadiums**
+
+![Chase-friendly vs balanced stadiums](outputs/charts/04_venue_profile.png)
+
+**IPL titles by franchise**
+
+![IPL titles by franchise](outputs/charts/05_titles.png)
+
+**Most Player-of-the-Match awards**
+
+![Most Player-of-the-Match awards](outputs/charts/06_player_of_match.png)
+
+**Win % in close matches**
+
+![Win % in close matches](outputs/charts/07_close_matches.png)
+
+**Cumulative wins of top 5 franchises**
+
+![Cumulative wins of top 5 franchises](outputs/charts/08_cumulative_wins.png)
 
 ## Limitations
 - Dataset is **match-level** (no ball-by-ball), so batting/bowling-level metrics are out of scope.
